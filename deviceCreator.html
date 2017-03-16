@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="WMstyle.css">
+
+<title>WM Device Creator</Title>
+</head>
+<body>
+
+
+<div id="heading">
+  Walmart Device  Creator</center></h2>
+  </div>
+<div>
+
+  <form action="/createCSV.php">
+    <label for="store">Store #:</label>
+    <input type="text" id="store" name="store" placeholder="Enter Store #" required><br>
+  
+    <label for="dname">Device Name: </label>
+    <input type="text" id="dname" name="device" placeholder="Device Name" required><br>
+    
+    <label for="mac">Mac Address:</label>
+    <input type="text" id="mac" name="mac" placeholder="Enter MAC address " required><br>
+    
+    <label for="asset">Asset tag: </label>
+    <input type="text" id="asset" name="asset" placeholder="Asset tag #" required><br>
+       
+
+    <label for="store_type">Store Type: </label>
+    <select id="store_type" name="store_type">
+      <option value="SuperCenter">SuperCenter</option>
+      <option value="NeighborhoodMarket">Neighborhood Market</option>
+    </select>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
