@@ -2,7 +2,6 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="WMstyles.css">
 		<title>WM Device Creator</title>
-		
 	</head>
 <body>
 
