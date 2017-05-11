@@ -1,21 +1,52 @@
 <!DOCTYPE html>
+<!-- 
+    Created on : Mar 16, 2017, 12:19:45 PM
+    Author     : pstaeuble
+-->
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="WMstyles.css">
+<link rel="stylesheet" href="WMstyles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
 
 <title>WM Device Creator</Title>
 </head>
 
 <body>
+	
+	
+	
+	
     <header>
-        Insert Strata nav bar
+        <div class="w3-top">
+			<div class="w3-bar w3-blue">
+    <div class="w3-col s4">
+      <a href="#" class="w3-button w3-block w3-blue w3-hover-yellow">HOME</a>
+    </div>
+    <div class="w3-col s4">
+      <a href="#" class="w3-button w3-block w3-blue w3-hover-yellow">DEVICE CREATOR</a>
+    </div>
+    <div class="w3-col s4">
+      <a href="#" class="w3-button w3-block w3-blue w3-hover-yellow">CONFLUENCE</a>
+    </div>
+  </div>
+</div>
    </header>
+   
+   
+   
+   
+   
     <main>
-    <div id="heading">
+    <div class="w3-col">
+    <div class="position">
+    <div class="w3-blue" id="heading">
   		Walmart Device Creator
 	</div>
-	
-  <form action="createCSV.php" method="post">
+    		<form action="valid.php" method="post">
+    
+	<br>
   	<div class="form-control">
   		<label for="store">Store #:</label>
     	<input type="text" id="store" name="store" placeholder="Enter Store #" required>
@@ -43,12 +74,20 @@
       		<option value="NeighborhoodMarket">Neighborhood Market</option>
     	</select>
     </div>
-
-    <input type="submit" value="Submit">
+    <br>
+    <div class="w3-btn w3-animate-fading">
+    	<a href="#" class="w3-btn w3-blue w3-hover-yellow">SUBMIT</a>
+    </div>
   </form>
+  </div>
+  </div>
+  
 </main>
+
+
+
     <footer>
-        fs
+        Patrick Staeuble 2017
     </footer>
 </body>
 </html>
